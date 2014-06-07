@@ -1,0 +1,12 @@
+<div class="post" ng-repeat="blog in blogs">
+	
+	<a class="owner" href="http://www.minds.com/{{blog.ownerObj.username}}" target="_blank">
+		<img src="http://www.minds.com/icon/{{blog.owner_guid}}/medium" class="icon"/>
+		<h3>{{blog.ownerObj.name}}</h3>
+	</a>
+	<div class="body">
+		<h3><a href="{{blog.url}}" target="_blank">{{blog.title}}</a></h3>
+		<span class="timestamp">{{blog.time_created | friendly_time}}</span>
+		<div class="excerpt">{{blog.excerpt}}</div>
+	</div>
+</div>

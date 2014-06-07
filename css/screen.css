@@ -1,0 +1,34 @@
+/**
+ * 	Normal screen
+ */
+
+
+/**
+ * 	Screen size, less than 800px wide
+ */
+@media all 
+and (min-width : 320px)
+and (max-width : 680px) {
+	
+	header .logo{
+		width:152px;
+	}
+	
+	header .menu{
+		width:100%;
+		margin:32px 0 0;
+	}
+	header .menu > .item{
+		width:33%;
+	}
+	header .menu > .item > a{
+		padding:0;
+	}
+
+	.content{
+		margin-top:0;
+		width:90%;
+		overflow:hidden;
+	} 
+
+}
