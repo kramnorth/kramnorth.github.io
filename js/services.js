@@ -10,7 +10,7 @@ kramnorth.factory('page', function() {
 
 	return {
 		page: 'default',
-		title: 'none',
+		title: '',
 		set : function (key, val){
 			this[key] = val;
 		},
