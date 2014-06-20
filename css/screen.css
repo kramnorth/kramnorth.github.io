@@ -8,7 +8,7 @@
  */
 @media all 
 and (min-width : 320px)
-and (max-width : 680px) {
+and (max-width : 840px) {
 	
 	header .logo{
 		width:152px;
