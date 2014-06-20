@@ -56,7 +56,7 @@ kramnorthControllers.controller('BlogCtrl', ['$scope', '$http', 'page',
 	page.page = 'blog',
 	page.title = 'Blog';
 	
-	$http.get('http://www.minds.com/mark/blog/?view=json&2').success(function(data) {
+	$http.get('https://www.minds.com/mark/blog/?view=json&2').success(function(data) {
 		$scope.blogs = data.object.blog;
     });
     
